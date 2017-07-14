@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.screen {
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFB5DF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 3px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20px 0 20px;
+}
+
+.counter {
+	font-size: 50px;
+	font-weight: lighter;
+	color: #272727;
+}
